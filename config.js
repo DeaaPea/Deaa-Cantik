@@ -18,25 +18,25 @@ global.APIKeys = {
 }
 
 // Other
-global.owner = ['6285649812379','6289525919489']
-global.premium = ['6289525919489','6285649812379']
-global.botname = 'Deaa wibusoft'
+global.owner = ['62895383111280','6289525919489']
+global.premium = ['6289525919489','62895383111280']
+global.botname = 'Ozyw-Bot MD'
 
-global.ownername = 'Deaa cantick'
-global.packname = 'Deaa Wibusoft'
-global.author = 'Whatsap Bot'
+global.ownername = 'Ozyw Store'
+global.packname = 'Ozyw-Bot MD'
+global.author = 'Ozyyw New'
 global.sessionName = 'hisoka'
 global.prefa = ['','!','.','🐦','🐤','🗿']
 global.sp = '⭔'
 global.mess = {
-    success: '✓ Success',
-    admin: 'Fitur Khusus Admin Group!',
+    success: '✓ Donnee',
+    admin: 'Fitur Khusus Admin Group! Dek',
     botAdmin: 'Bot Harus Menjadi Admin Terlebih Dahulu!',
-    owner: 'Fitur Khusus Owner Bot',
+    owner: 'Lu Siapa Dekk??',
     group: 'Fitur Digunakan Hanya Untuk Group!',
     private: 'Fitur Digunakan Hanya Untuk Private Chat!',
-    bot: 'Fitur Khusus Pengguna Nomor Bot',
-    wait: 'Loading...',
+    bot: 'Khusus Bot',
+    wait: 'Sabaran',
     endLimit: 'Limit Harian Anda Telah Habis, Limit Akan Direset Setiap Jam 12',
 }
 global.limitawal = {
