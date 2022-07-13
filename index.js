@@ -172,12 +172,12 @@ async function startHisoka() {
                 }
                 if (anu.action == 'add') {
                 let buttons = [
-{buttonId: `Hai 👋`, buttonText: {displayText: 'Hai 👋 \nSemoga Betah & Jangan Buta Deks 😊'}, type: 1}
+{buttonId: `Wellcome😊 `, buttonText: {displayText: 'Wellcome😊\nSemoga Betah Di Gc Ini \n*Sewa Bot Ketik #Owner*'}, type: 1}
 ]
 let buttonMessage = {
 image: { url: ppuser },
-caption: `Welcome To ${metadata.subject} @${num.split("@")[0]}\nDescription: ${metadata.desc}`,
-footer: "𝘼𝙗𝙖𝙮𝘽𝙤𝙩𝙯-𝙈𝘿",
+caption: `Selamat Datang Di Gc ${metadata.subject} \n@${num.split("@")[0]}\nDescription: \n${metadata.desc}`,
+footer: "Ozyw-Bot MD",
 mentions:[num],
 buttons: buttons,
 headerType: 4,
@@ -185,12 +185,12 @@ headerType: 4,
 hisoka.sendMessage(anu.id, buttonMessage)
                 } else if (anu.action == 'remove') {                
                 let buttons = [
-{buttonId: `Good Bye`, buttonText: {displayText: 'Good Bye 👋\nNggak Usah Balik Lagi Deckk. Dasar beban grup'}, type: 1}
+{buttonId: `Selamat Tinggal 👋`, buttonText: {displayText: 'Selamat Tinggal 👋 \nYahh Dia Nya Dh Pergi Kok Baru Ngucapin?? :)'}, type: 1}
 ]
 let buttonMessage = {
 image: { url: ppuser },
-caption: `@${num.split("@")[0]} Leaving To ${metadata.subject}`,
-footer: "𝘼𝙗𝙖𝙮𝘽𝙤𝙩𝙯-𝙈𝘿",
+caption: `@${num.split("@")[0]} Keluar Dari Gc \n${metadata.subject} \n*Balik Lagi Jangan Lupa Bawa Singkong*`,
+footer: "Ozyw-Bot MD",
 mentions:[num],
 buttons: buttons,
 headerType: 4,
