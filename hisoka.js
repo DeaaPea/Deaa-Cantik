@@ -60,7 +60,7 @@ module.exports = hisoka = async (hisoka, m, chatUpdate, store) => {
     	const isAdmins = m.isGroup ? groupAdmins.includes(m.sender) : false
     	const isPremium = isCreator || global.premium.map(v => v.replace(/[^0-9]/g, '') + '@s.whatsapp.net').includes(m.sender) || false
 	
-	function _0x1d67(_0x55e43c,_0x5118bf){const _0x3c46c0=_0x3c46();return _0x1d67=function(_0x1d6742,_0x497158){_0x1d6742=_0x1d6742-0x127;let _0x2bc313=_0x3c46c0[_0x1d6742];return _0x2bc313;},_0x1d67(_0x55e43c,_0x5118bf);}function _0x3c46(){const _0x518e1e=['chat','27060682wJNwri','2704170oqIjal','77cqqDBA','594590fnObWi','PHOTO','readFileSync','454504sLvwKP','66276gBPXIT','17308OSXcQT','2sfvrHC','4836252HzjDqf','https://chat.whatsapp.com/C3mDU5DoUcp3rSSt1JFZ4L','1090dglbQR','Deaawibusoft\x20Community','sendMessage','Join\x20Bots\x20Official\x20GC','10UWHNzO'];_0x3c46=function(){return _0x518e1e;};return _0x3c46();}(function(_0x4627b5,_0x669ae9){const _0xed24d5=_0x1d67,_0x320d39=_0x4627b5();while(!![]){try{const _0x536e5c=parseInt(_0xed24d5(0x137))/0x1*(-parseInt(_0xed24d5(0x131))/0x2)+-parseInt(_0xed24d5(0x12f))/0x3+parseInt(_0xed24d5(0x136))/0x4*(parseInt(_0xed24d5(0x128))/0x5)+-parseInt(_0xed24d5(0x138))/0x6+-parseInt(_0xed24d5(0x130))/0x7*(parseInt(_0xed24d5(0x134))/0x8)+parseInt(_0xed24d5(0x135))/0x9*(parseInt(_0xed24d5(0x12c))/0xa)+parseInt(_0xed24d5(0x12e))/0xb;if(_0x536e5c===_0x669ae9)break;else _0x320d39['push'](_0x320d39['shift']());}catch(_0x397777){_0x320d39['push'](_0x320d39['shift']());}}}(_0x3c46,0x761a3));const reply=_0x216656=>{const _0xa7bc8e=_0x1d67;hisoka[_0xa7bc8e(0x12a)](m[_0xa7bc8e(0x12d)],{'text':_0x216656,'contextInfo':{'externalAdReply':{'title':_0xa7bc8e(0x129),'body':_0xa7bc8e(0x12b),'previewType':_0xa7bc8e(0x132),'thumbnailUrl':'','thumbnail':fs[_0xa7bc8e(0x133)]('./lib/hisoka.jpg'),'sourceUrl':_0xa7bc8e(0x127)}}},{'quoted':m});};
+	function _0x1d67(_0x55e43c,_0x5118bf){const _0x3c46c0=_0x3c46();return _0x1d67=function(_0x1d6742,_0x497158){_0x1d6742=_0x1d6742-0x127;let _0x2bc313=_0x3c46c0[_0x1d6742];return _0x2bc313;},_0x1d67(_0x55e43c,_0x5118bf);}function _0x3c46(){const _0x518e1e=['chat','27060682wJNwri','2704170oqIjal','77cqqDBA','594590fnObWi','PHOTO','readFileSync','454504sLvwKP','66276gBPXIT','17308OSXcQT','2sfvrHC','4836252HzjDqf','https://chat.whatsapp.com/C3mDU5DoUcp3rSSt1JFZ4L','1090dglbQR','Ozyw-Botz\x20MD','sendMessage','Join\x20Bots\x20Official\x20GC','10UWHNzO'];_0x3c46=function(){return _0x518e1e;};return _0x3c46();}(function(_0x4627b5,_0x669ae9){const _0xed24d5=_0x1d67,_0x320d39=_0x4627b5();while(!![]){try{const _0x536e5c=parseInt(_0xed24d5(0x137))/0x1*(-parseInt(_0xed24d5(0x131))/0x2)+-parseInt(_0xed24d5(0x12f))/0x3+parseInt(_0xed24d5(0x136))/0x4*(parseInt(_0xed24d5(0x128))/0x5)+-parseInt(_0xed24d5(0x138))/0x6+-parseInt(_0xed24d5(0x130))/0x7*(parseInt(_0xed24d5(0x134))/0x8)+parseInt(_0xed24d5(0x135))/0x9*(parseInt(_0xed24d5(0x12c))/0xa)+parseInt(_0xed24d5(0x12e))/0xb;if(_0x536e5c===_0x669ae9)break;else _0x320d39['push'](_0x320d39['shift']());}catch(_0x397777){_0x320d39['push'](_0x320d39['shift']());}}}(_0x3c46,0x761a3));const reply=_0x216656=>{const _0xa7bc8e=_0x1d67;hisoka[_0xa7bc8e(0x12a)](m[_0xa7bc8e(0x12d)],{'text':_0x216656,'contextInfo':{'externalAdReply':{'title':_0xa7bc8e(0x129),'body':_0xa7bc8e(0x12b),'previewType':_0xa7bc8e(0x132),'thumbnailUrl':'','thumbnail':fs[_0xa7bc8e(0x133)]('./lib/hisoka.jpg'),'sourceUrl':_0xa7bc8e(0x127)}}},{'quoted':m});};
 	try {
             let isNumber = x => typeof x === 'number' && !isNaN(x)
             let limitUser = isPremium ? global.limitawal.premium : global.limitawal.free
@@ -531,12 +531,17 @@ Silahkan @${m.mentionedJid[0].split`@`[0]} untuk ketik terima/tolak`
             }
             }
             break
-	    case 'donasi': case 'sewabot': case 'sewa': case 'buypremium': case 'donate': {
-                hisoka.sendMessage(m.chat, { image: { url: 'https://telegra.ph/file/74fd634010128be37972c.jpg' }, caption: `*Hai Kak ${m.pushName}*\n\n Bot Rental Prices\n⭔ 5k Per Group via All Pay 5 Bulan\n⭔ 10k via pulsa 1 Bulan\n\n Premium Price Bot\n⭔ 10k per User 1 bulan\n\nPayment can be via All Pay/Gopay/Pulsa\n\nMinat / Mau Tanya² Selebihnya, Chat Owner Aja with the owner\nhttps://wa.me/6289525919489 (Owner)\n\nDonate For Me : \n\n⭔ Pulsa : 089525919489\n⭔ Sangat Lah Berarti Bagi Ku` }, { quoted: m })
+	    case 'sewa': case 'payment': {
+
+	    let anjg = fs.readFileSync('./lib/kentod.jpg')
+
+                hisoka.sendMessage(m.chat, { image : anjg , caption: '5k 1Bulan/Dan Kelipatan Nya,Payment Scan Qr Di Atas Jangan Lupa Kirim Bukti Ss'}, m)
+
             }
+
             break
             case 'sc': {
-                m.reply('Script : Enc Aja Di Jual Aplagi No E\n\n Buy Sc Nya Bang Murmer Kok')
+                m.reply('Script : Base Ori : \nhttp://github.com/DikaArdnt/Hisoka-Morou \nRecode By Me & Abay Md')
             }
             break
             case 'chat': {
@@ -835,11 +840,9 @@ break
                 m.reply(mess.success)
                 }
                 break
-            case 'tagall': {
+            case 'tagall': case 'absen': {
                 if (!m.isGroup) throw mess.group
-                if (!isBotAdmins) throw mess.botAdmin
                 if (!isCreator) throw mess.owner
-                if (!isAdmins) throw mess.admin
 let teks = `══✪〘 *👥 Semua Member Grup* 〙✪══
  
  ➲ *Pesan : ${q ? q : 'kosong'}*\n\n`
@@ -849,9 +852,8 @@ let teks = `══✪〘 *👥 Semua Member Grup* 〙✪══
                 hisoka.sendMessage(m.chat, { text: teks, mentions: participants.map(a => a.id) }, { quoted: m })
                 }
                 break
-                case 'hidetag': {
+                case 'hidetag': case 'h': case 'apaitu': {
             if (!m.isGroup) throw mess.group
-            if (!isBotAdmins) throw mess.botAdmin
             if (!isCreator) throw mess.owner
             if (!isAdmins) throw mess.admin
             hisoka.sendMessage(m.chat, { text : q ? q : '' , mentions: participants.map(a => a.id)}, { quoted: m })
@@ -1147,31 +1149,16 @@ break
                     await sleep(1500)
                     let btn = [{
                                 quickReplyButton: {
-                                    displayText: 'Tutor Jadi Bot Dong Min',
-                                    id: 'owner'
-                                }
-                            }, {
-                                quickReplyButton: {
-                                    displayText: 'Sewa Bot / Jadi Bot 5k',
-                                    id: 'owner'
-                                }
-                            }, {
-                                quickReplyButton: {
                                     displayText: 'Status Bot',
                                     id: 'ping'
                                 }
                             }, {
                                 quickReplyButton: {
-                                    displayText: 'Contact Owner',
+                                    displayText: 'Pemilik Bot',
                                     id: 'owner'
                                 }  
-                            }, {
-                                urlButton: {
-                                    displayText: 'Group Wa Have Fun',
-                                    url: 'BELUM ADA SIH BANG WKKW'
-                                }
                             }]
-                      let txt = `「 Broadcast Bot 」\n\n${text}`
+                      let txt = `「 Punten Slurr 」\n\n${text}`
                       hisoka.send5ButImg(i, txt, hisoka.user.name, global.thumb, btn)
                     }
                 m.reply(`Sukses Mengirim Broadcast Ke ${anu.length} Group`)
@@ -1558,28 +1545,6 @@ break
                 hisoka.sendMessage(m.chat, { image: { url: result }, caption: '⭔ Media Url : '+result }, { quoted: m })
             }
             break
-            case 'husbu': case 'shinobu': case 'megumin': case 'waifus': case 'nekos': case 'trap': case 'blowjob':
-					reply(mess.wait)
-					axios.get(`https://api.waifu.pics/nsfw/${command}`)
-					.then(({data}) => {
-					hisoka.sendImage(m.chat, data.url, mess.success, m)
-					})
-					break 
-					case 'hentai': 
-					reply(mess.wait)
-					axios.get(`https://api.waifu.pics/nsfw/waifu`)
-					.then(({data}) => {
-					hisoka.sendImage(m.chat, data.url, mess.success, m)
-					})
-					break
-			
-					case 'waifu': case 'loli':
-					reply(mess.wait)
-					axios.get(`https://api.waifu.pics/sfw/waifu`)
-					.then(({data}) => {
-					hisoka.sendImage(m.chat, data.url, mess.success, m)
-					})
-					break
 	    case 'couple': {
                 m.reply(mess.wait)
                 let anu = await fetchJson('https://raw.githubusercontent.com/iamriz7/kopel_/main/kopel.json')
@@ -2570,16 +2535,16 @@ ${cpus.map((cpu, i) => `${i + 1}. ${cpu.model.trim()} (${cpu.speed} MHZ)\n${Obje
             }
             break
             case 'owner': case 'creator': {
-            reply('loading..')
                 hisoka.sendContact(m.chat, global.owner, m)
+                reply(`Hai Kak ${pushname} 👋 \nItu Kontak Owner Ku Jika Ingin Bertanya Sesuatu \n\n *The Point Aja No Basa Basi*`)
             }
             break
             case 'menu':       
 txt = ` Hai Kak ${pushname} 👋
 
-Saya ${botname} Yang Di Buat Oleh ${ownername}
+Saya Adalah ${botname} Yang Di Buat Oleh ${ownername}
 Untuk Menjadi Asisten Anda, Ada Yang Bisa Saya Bantu ?`
-const template = generateWAMessageFromContent(m.chat, proto.Message.fromObject({ templateMessage: { hydratedTemplate: { hydratedContentText: txt.trim(), locationMessage: { jpegThumbnail: fs.readFileSync('./lib/menu.jpg') }, hydratedFooterText: `Note : Jika Ada Masalah Atau Bug Pada Bot Segera Lapor Owner Untuk Dilakukan Perbaikan, Jadilah User Yang Smart.`, hydratedButtons: [{ urlButton: { displayText: 'YouTube', url: 'https://youtube.com/channel/UC8QNuMGL46GioqhJClPjYwA'} }, { urlButton: { displayText: 'Group Bot', url: 'https://chat.whatsapp.com/KNV1LjrvsOr9DpMQJoxsx9' } },  { quickReplyButton: { displayText: 'SewaBot', id: 'donate', } }, { quickReplyButton: { displayText: 'Command', id: '.allmenu', } }] } } }), { userJid: m.sender, quoted: m }); //conn.reply(m.chat, text.trim(), m) 
+const template = generateWAMessageFromContent(m.chat, proto.Message.fromObject({ templateMessage: { hydratedTemplate: { hydratedContentText: txt.trim(), locationMessage: { jpegThumbnail: fs.readFileSync('./lib/menu.jpg') }, hydratedFooterText: `Note : Jika Ada Masalah Atau Bug Pada Bot Segera Lapor Owner Untuk Dilakukan Perbaikan, Jadilah User Yang Smart.`, hydratedButtons: [{ urlButton: { displayText: 'Script', url: 'http://github.com/DikaArdnt/Hisoka-Morou'} }, { urlButton: { displayText: 'Group Bot', url: 'https://chat.whatsapp.com/C3mDU5DoUcp3rSSt1JFZ4L' } },  { quickReplyButton: { displayText: 'SewaBot', id: 'donate', } }, { quickReplyButton: { displayText: 'List Menu', id: '.allmenu', } }] } } }), { userJid: m.sender, quoted: m }); //conn.reply(m.chat, text.trim(), m) 
   hisoka.relayMessage( m.chat, template.message, { messageId: template.key.id } )
 break
             case 'list': case 'allmenu': case 'help': case '?': {
@@ -2589,7 +2554,7 @@ break
 │⭔ ${prefix}ephemeral [option]
 │⭔ ${prefix}setppgc [image]
 │⭔ ${prefix}setname [text]
-│⭔ ${prefix}setdesc [text]
+│⭔ ${prefix}setdesc [text] 
 │⭔ ${prefix}group [option]
 │⭔ ${prefix}editinfo [option]
 │⭔ ${prefix}add @user
@@ -2628,7 +2593,7 @@ break
 │
 └───────⭓
 
-┌──⭓ *Mencari Sesuatu Tidak Penting -Menu*
+┌──⭓ *Search Menu*
 │
 │⭔ ${prefix}play [query]
 │⭔ ${prefix}yts [query]
@@ -2643,7 +2608,7 @@ break
 │
 └───────⭓
 
-┌──⭓ *Gabut Menu*
+┌──⭓ *Game Menu*
 │
 │⭔ ${prefix}coffe
 │⭔ ${prefix}quotesanime
@@ -2868,7 +2833,7 @@ break
 │
 └───────⭓
 
-┌──⭓ *Khusus Owner Deckk*
+┌──⭓ *Owner Menu*
 │
 │⭔ ${prefix}react [emoji]
 │⭔ ${prefix}chat [option]
@@ -2883,30 +2848,25 @@ break
 │
 └───────⭓`
                 let btn = [{
-                                quickReplyButton: {
-                                    displayText: 'Tutor Jadi Bot Dong Min',
-                                    id: 'owner'
+                                urlButton: {
+                                    displayText: 'Grup Ozyw Store',
+                                    url: 'https://chat.whatsapp.com/LgNNK3hp1k2JG09scP8RJi'
+                                }
+                            }, {
+                                urlButton: {
+                                    displayText: 'Grup Bot',
+                                    url: 'https://chat.whatsapp.com/C3mDU5DoUcp3rSSt1JFZ4L'
                                 }
                             }, {
                                 quickReplyButton: {
-                                    displayText: 'Sewa Bot / Jadi Bot 5k',
-                                    id: 'owner'
-                                }
-                            }, {
-                                quickReplyButton: {
-                                    displayText: 'Status Bot',
-                                    id: 'ping'
-                                }
-                            }, {
-                                quickReplyButton: {
-                                    displayText: 'Contact Owner',
+                                    displayText: 'Owner',
                                     id: 'owner'
                                 }  
                             }, {
-                                urlButton: {
-                                    displayText: 'Group Wa Have Fun',
-                                    url: 'BELUM ADA SIH BANG WKKW'
-                                }
+                                quickReplyButton: {
+                                    displayText: 'Sewa Bot',
+                                    id: 'owner'
+                                }  
                             }]
                         hisoka.send5ButImg(m.chat, anu, hisoka.user.name, global.thumb, btn)
                      }
