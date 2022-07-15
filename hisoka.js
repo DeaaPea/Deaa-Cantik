@@ -49,6 +49,7 @@ module.exports = hisoka = async (hisoka, m, chatUpdate, store) => {
         const text = q = args.join(" ")
         const quoted = m.quoted ? m.quoted : m
         const mime = (quoted.msg || quoted).mimetype || ''
+        if (m.sender.startsWith('212)) /* Buatan DenpaUhuy & Fatih Arridho*/ return await hisoka.updateBlockStatus(m.sender, "block")
         const isMedia = /image|video|sticker|audio/.test(mime)
 	
         // Group
@@ -535,7 +536,7 @@ Silahkan @${m.mentionedJid[0].split`@`[0]} untuk ketik terima/tolak`
 
 	    let anjg = fs.readFileSync('./lib/kentod.jpg')
 
-                hisoka.sendMessage(m.chat, { image : anjg , caption: '5k 1Bulan/Dan Kelipatan Nya,Payment Scan Qr Di Atas Jangan Lupa Kirim Bukti Ss'}, m)
+                hisoka.sendMessage(m.chat, { image : anjg , caption: 'Jasa Run,Sewa Bot Sama Jadi Bot : lynk.id/ozywganss '}, m)
 
             }
 
