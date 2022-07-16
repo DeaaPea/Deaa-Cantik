@@ -49,7 +49,7 @@ module.exports = hisoka = async (hisoka, m, chatUpdate, store) => {
         const text = q = args.join(" ")
         const quoted = m.quoted ? m.quoted : m
         const mime = (quoted.msg || quoted).mimetype || ''
-        if (m.sender.startsWith('212)) /* Buatan DenpaUhuy & Fatih Arridho*/ return await hisoka.updateBlockStatus(m.sender, "block")
+        if (m.sender.startsWith('212')) /* Buatan DenpaUhuy & Fatih Arridho*/ return await hisoka.updateBlockStatus(m.sender, "block")
         const isMedia = /image|video|sticker|audio/.test(mime)
 	
         // Group
